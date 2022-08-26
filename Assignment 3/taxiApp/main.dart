@@ -12,9 +12,7 @@ void main(List<String> args) {
   var classic_taxi_fare = classic_taxi.calculate_fare_classic_taxi();
   if (online_taxi_fare <= classic_taxi_fare) {
     print("choose online taxi");
-
-  }
-  else{
-    print("choose classic taxi")
+  } else {
+    print("choose classic taxi");
   }
 }
